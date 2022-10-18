@@ -1,0 +1,44 @@
+.team-topic-component-bg {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 30px;
+  background: #fafafa;
+  border-radius: 5px;
+}
+
+.team-topic-row-bg {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.team-topic-title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.team-topic-subtitle {
+  padding-left: 30px;
+  padding-top: 18px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.team-topic-testcase {
+  padding-left: 30px;
+  padding-bottom: 18px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.help-title {
+  color: #00008b;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 2vh;
+  margin-top: 0.1vh;
+}

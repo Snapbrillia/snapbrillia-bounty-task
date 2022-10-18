@@ -1,0 +1,94 @@
+.grant-details-component {
+  padding-left: 0;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  /* padding-top: 30px; */
+}
+
+.grant-details-component-row1 {
+  padding-top: 30px;
+}
+
+.grant-details-component-row2 {
+  padding-top: 30px;
+  white-space: nowrap;
+}
+
+.grant-details-title {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #2d2b6f;
+}
+.grant-details-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #808080;
+}
+
+.grant-details-textarea {
+  border: none;
+  background-color: #f4f4f4;
+  outline: none;
+  width: 100%;
+  border-radius: 5px !important;
+  resize: unset;
+  padding: 10px;
+}
+
+.grant-details-control {
+  border: none;
+  background-color: #f4f4f4;
+  outline: none;
+  border-radius: 5px !important;
+  padding-left: 20px;
+}
+
+.input-number-prefix {
+  color: #808080;
+  font-weight: 400;
+  position: absolute;
+  top: 15%;
+  right: 95%;
+  display: table-cell;
+  white-space: nowrap;
+}
+
+.input-number-suffix-percent {
+  color: #808080;
+  font-weight: 400;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  display: table-cell;
+  white-space: nowrap;
+}
+
+.grant-details-grant-amount {
+  padding-right: calc(5% + 35px);
+}
+
+.input-number-suffix-usd {
+  color: #808080;
+  font-weight: 400;
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  display: table-cell;
+  white-space: nowrap;
+}
+
+.grant-details-help-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.grant-details-expand-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  right: 1%;
+  display: table-cell;
+  white-space: nowrap;
+}

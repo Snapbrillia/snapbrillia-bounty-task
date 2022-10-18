@@ -1,0 +1,78 @@
+.open-office-hours-fields-bg {
+  background: white;
+}
+
+.open-office-hours-fields-title {
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.open-office-hours-fields-paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #808080;
+}
+
+.open-office-hours-fields-subtitle {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.open-office-hours-fields-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  float: right;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  color: #605f92;
+}
+
+.open-office-hours-fields-input {
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.open-office-hours-fields-input::-webkit-inner-spin-button,
+.open-office-hours-fields-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+  border: none;
+  background-color: transparent !important;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0%;
+  text-align: start;
+
+  color: #605f92;
+}
+
+.input-text-small {
+  font-size: 12px !important;
+  padding: 2px !important;
+  text-align: center;
+}

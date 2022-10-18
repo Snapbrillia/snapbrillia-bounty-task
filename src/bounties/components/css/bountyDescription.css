@@ -1,0 +1,15 @@
+.github_icon {
+  width: 20px;
+}
+
+.github_view_detail_text {
+  font-size: 0.85em;
+}
+
+.github_view_detail_link {
+  color: black;
+}
+
+.line-break{
+  white-space: pre-line;
+}

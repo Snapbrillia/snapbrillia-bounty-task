@@ -1,0 +1,10 @@
+.checkout-info-container {
+    border-radius: 10px;
+    background-color: #fafafa;
+    width:90%;
+  }
+  
+  .checkout-info-container
+    .checkout-info-row:not(:last-child) {
+    border-bottom: 1px solid #cbcbcb;
+  }

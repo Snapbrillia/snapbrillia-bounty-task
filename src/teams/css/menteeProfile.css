@@ -1,0 +1,42 @@
+.mentee-profile-component-bg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #fafafa;
+  border-radius: 5px;
+}
+
+.mentee-profile-picture {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.mentee-profile-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.mentee-profile-align {
+  padding-left: 10px;
+}
+
+.mentee-profile-small-text {
+  font-size: 11px;
+}
+
+.mentee-profile-url {
+  text-decoration: underline;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.mentee-profile-officehour-title {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mentee-profile-officehour {
+  font-size: 13px;
+}

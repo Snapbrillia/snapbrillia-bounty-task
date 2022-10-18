@@ -1,0 +1,157 @@
+.personal-info-title {
+  color: #000 !important;
+}
+
+.personal-info-description {
+  color: #808080;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.personal-info-tag {
+  font-size: 0.9em;
+  color: #808080;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 6px;
+}
+
+.personal-info-name {
+  padding: 5px 0 45px 5px;
+}
+
+.personal-info-photo {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  /* width: 190px; */
+  /* height: 190px; */
+  margin-right: 20px;
+  max-height: 220px;
+  aspect-ratio: 1 / 1;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+}
+
+.personal-info-photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.personal-info-photo .buttons {
+  position: absolute;
+  top: 80%;
+  font-size: 0.65em;
+  font-weight: 500;
+  z-index: 100;
+  color: #ffffff;
+  background-color: hsl(301.07, 100%, 33.14%, 50%);
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info-photo .text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.personal-info-bottom {
+  margin-top: 50px;
+}
+
+.personal-info-bottom .location {
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  border: none;
+  outline: unset;
+  height: 35px;
+  /* margin-bottom: 50px; */
+}
+.personal-info-connections-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+.personal-info-connections {
+  border-radius: 0.5rem;
+  /* margin-bottom: 8px; */
+}
+
+.personal-info-connections .icons {
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.personal-info-connections .connect-text {
+  font-size: 0.8em;
+  color: #7877a2;
+  font-weight: 500;
+}
+
+.personal-info-connections .connect-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.personal-info-connections .not-connected {
+  font-size: 0.8em;
+  color: #808080;
+  font-weight: 500;
+}
+
+.personal-info-connections .connected {
+  font-size: 0.8em;
+  color: #5bd37c;
+  font-weight: 500;
+}
+
+.personal-info-connections .connected-text {
+  font-size: 0.8em;
+  color: #000;
+  font-weight: 500;
+  margin-left: 1px;
+}
+
+@media only screen and (max-width: 991.9px) {
+  .personal-info-connections-container {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .personal-info-connections {
+    margin-left: 0 !important;
+    margin-bottom: 10px;
+  }
+
+  .personal-info-photo-column {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1199.9px) {
+  .personal-info-connections-container {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .personal-info-connections {
+    margin-left: 0 !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .personal-info-connections .middle {
+    position: relative;
+    left: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 1399.9px) {
+  .personal-info-connections .middle {
+    position: relative;
+    left: 10px;
+  }
+}

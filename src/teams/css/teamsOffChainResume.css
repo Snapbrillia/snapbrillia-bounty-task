@@ -1,0 +1,8 @@
+.teams-resume-chain-checkbox {
+  transform: scale(1.5);
+  margin-top: 0.9rem;
+}
+
+.teams-resume-cursor-pointer {
+  cursor: pointer;
+}

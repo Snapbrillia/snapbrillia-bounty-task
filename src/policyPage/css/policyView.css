@@ -1,0 +1,30 @@
+.policy-close-button {
+  position: relative;
+  top: 29px;
+}
+
+.policy-side-bar {
+  margin-top: 50px;
+}
+
+.policy-page-title-text {
+  margin: 24px 56px;
+  font-family: roboto, serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #2d2b6f;
+}
+
+.policy-main-content {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.full-page {
+  overflow: hidden;
+}
+
+.policy-text-left {
+  text-align: left;
+}

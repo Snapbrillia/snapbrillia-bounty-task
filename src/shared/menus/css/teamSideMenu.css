@@ -1,0 +1,33 @@
+.starrating {
+  margin-left: -10px;
+}
+.searchbox {
+  color: #8f8f8f;
+  background-color: #ececec;
+  border-radius: 7px;
+  border: none;
+  padding: 4px 9px;
+  font-size: 0.875em;
+  margin-bottom: 35px;
+  margin-top: 25px;
+}
+.team-side-menu-labels {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.pdd-2 {
+  padding-left: 20px !important;
+}
+
+.pdd {
+  width: 60px;
+  padding: 5px 5px !important;
+}
+
+[type='radio']:not(:checked) + label::before {
+  padding-top: 15px;
+}

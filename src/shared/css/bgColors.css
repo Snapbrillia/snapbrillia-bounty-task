@@ -1,0 +1,43 @@
+.pagemainbg {
+  background-color: #f4f5f7;
+}
+
+.cardbg {
+  background-color: #fafafa;
+}
+
+.selectedcardbg {
+  background-color: #fffdfd;
+}
+
+.selectedbg {
+  background-color: #f8e3e1;
+}
+
+.primarybg {
+  background-color: #ffffff;
+}
+
+.successbg {
+  background-color: #e7f7e3;
+}
+
+.errorbg {
+  background-color: #f8e3e1;
+}
+
+.inputbg {
+  background-color: #f4f4f4;
+}
+
+.signinmainbg {
+  background: linear-gradient(180deg, #b247f2 0%, #5d20c3 100%), #ffffff;
+}
+
+.task-error-bg {
+  background-color: rgb(241, 210, 210);
+}
+
+.task-success-bg {
+  background-color: rgba(110, 235, 110, 0.2);
+}

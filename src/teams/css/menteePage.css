@@ -1,0 +1,16 @@
+.mentee_page_cancel_button {
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+  color: #808080;
+  font-size: 12px;
+  font-family: Roboto, serif;
+  padding: 5px 25px;
+  margin-right: 46px;
+}
+
+@media only screen and (max-width: 580px) {
+  .mentee_page_linked_accounts_col {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.view-cart-purchase-info-container {
+  border-radius: 10px;
+  background-color: #fafafa;
+  width:90%;
+}
+
+.view-cart-purchase-info-container
+  .view-cart-purchase-info-row:not(:last-child) {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.vendor-text {
+  font-size: 10px;
+}

@@ -1,0 +1,10 @@
+.featured-top-container {
+  text-align: left;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .featured-show-row-md-screen {
+    flex-direction: column;
+  }
+}

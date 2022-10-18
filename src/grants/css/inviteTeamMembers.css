@@ -1,0 +1,55 @@
+.invite-team-members {
+  padding-left: 0;
+  /* padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px; */
+}
+.invite-team-members-title {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #2d2b6f;
+}
+
+.invite-team-members-row1 {
+  padding-top: 30px;
+}
+
+.invite-team-members-row2 {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.invite-team-members-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #808080;
+}
+
+.invite-team-members-control {
+  border: none;
+  background-color: #f4f4f4;
+  outline: none;
+  border-radius: 5px !important;
+}
+
+.invite-team-members-add {
+  text-align: right;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  cursor: pointer;
+  width: auto;
+  color: #605f92;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Roboto;
+  /* padding-right: 30px; */
+  padding-top: 20px;
+}
+
+.invite-team-members-help-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}

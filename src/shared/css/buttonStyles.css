@@ -1,0 +1,253 @@
+/*Base for button with a purple background*/
+.btn-primary {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f4f5f7 !important;
+  background-color: #a900a6 !important;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 5px 40px;
+  border: none;
+  box-shadow: none !important;
+}
+
+.btn-primary-medium {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: #f4f5f7 !important;
+  background-color: #a900a6 !important;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 5px 30px;
+  border: none;
+}
+.btn-primary-medium:disabled {
+  background-color: gray !important;
+}
+
+.btn-primary-small {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 8px;
+  color: #f4f5f7;
+  background-color: #a900a6;
+  box-shadow: 0 0 2px 1px rgba(91, 89, 89, 0.25);
+  border-radius: 20px;
+  padding: 4px 20px;
+  border: none;
+}
+
+/*Base for button without a background*/
+.btn-secondary {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #808080;
+  background-color: transparent;
+  border-radius: 20px;
+  text-decoration: underline;
+  padding: 7px 37px;
+  border: none;
+}
+.btn-underline {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #808080;
+  background-color: transparent;
+  border-radius: 20px;
+  text-decoration: underline;
+  padding: 7px 37px;
+  border: none;
+}
+.btn-underline:hover {
+  background-color: #808080;
+  color: #ffffff;
+}
+
+.signinbuttons {
+  background-color: #fffdfd;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  width: 136px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2d2b6f;
+  box-shadow: 0px 0px 18px -4px rgba(104, 97, 97, 0.25);
+  padding: 6px 26px;
+}
+.signinlogos {
+  margin-bottom: 0.45em;
+}
+
+.finish-button {
+  border: 1px solid #a900a6;
+  box-shadow: 0px 0px 2px 1px rgba(91, 89, 89, 0.25);
+  border-radius: 20px;
+  color: #a900a6;
+}
+
+.upload-button {
+  background: #00abfe;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #f4f5f7;
+  border: none;
+  font-family: Roboto, serif;
+  font-size: 12px;
+  width: 104px;
+  padding: 6px;
+}
+
+.google-drive-button {
+  background: #e6e6e6;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #2d2b6f;
+  border: none;
+  font-family: Roboto, serif;
+  font-size: 12px;
+  width: 104px;
+  padding: 6px;
+}
+
+.btn-delete {
+  color: #fc4c4c;
+  background: #ffffff;
+  border: 2px solid #fc4c4c;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.btn-edit-modal-link,
+.add-team-member-link {
+  border: none;
+  text-decoration: underline;
+  color: #808080;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.btn-primary-medium {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: #f4f5f7 !important;
+  background-color: #a900a6 !important;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 5px 30px;
+  border: none;
+}
+
+.btn-primary-small {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 8px;
+  color: #f4f5f7;
+  background-color: #a900a6;
+  box-shadow: 0 0 2px 1px rgba(91, 89, 89, 0.25);
+  border-radius: 20px;
+  padding: 4px 20px;
+  border: none;
+}
+
+/*Base for button without a background*/
+/* .btn-secondary {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #808080;
+  background-color: transparent;
+  border-radius: 20px;
+  text-decoration: underline;
+  padding: 7px 37px;
+  border: none;
+} */
+
+.signinbuttons {
+  background-color: #fffdfd;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  width: 136px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2d2b6f;
+  box-shadow: 0px 0px 18px -4px rgba(104, 97, 97, 0.25);
+  padding: 6px 26px;
+}
+.signinlogos {
+  margin-bottom: 0.45em;
+}
+
+.finish-button {
+  border: 1px solid #a900a6;
+  box-shadow: 0px 0px 2px 1px rgba(91, 89, 89, 0.25);
+  border-radius: 20px;
+  color: #a900a6;
+}
+
+.upload-button {
+  background: #00abfe;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #f4f5f7;
+  border: none;
+  font-family: Roboto, serif;
+  font-size: 12px;
+  width: 104px;
+  padding: 6px;
+}
+
+.google-drive-button {
+  background: #e6e6e6;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #2d2b6f;
+  border: none;
+  font-family: Roboto, serif;
+  font-size: 12px;
+  width: 104px;
+  padding: 6px;
+}
+
+.btn-delete {
+  color: #fc4c4c;
+  background: #ffffff;
+  border: 2px solid #fc4c4c;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.btn-edit-modal-link,
+.add-team-member-link {
+  border: none;
+  text-decoration: underline;
+  color: #808080;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.btn-teams-only {
+  color: #a900a6;
+}
+
+.btn-after-elem-d-none::after {
+  display: none !important;
+}
+
+@media (max-width: 576px) {
+  .btn-create-grant-proposal {
+    float: none;
+  }
+}

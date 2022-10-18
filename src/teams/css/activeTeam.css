@@ -1,0 +1,423 @@
+.active_team_main_container {
+  padding: 0 40px 40px 40px;
+}
+.active_team_bg {
+  background: #fafafa;
+  border-radius: 10px;
+
+  padding-top: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.active_team_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  padding-left: 0px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.active_team_improve_span {
+  color: black;
+  text-decoration: underline;
+}
+.active_team_bold_span {
+  font-weight: bold;
+}
+
+.active_team_subtitle_bounty {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #808080;
+}
+
+.active_team_subtitle_bounty_status {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #808080;
+}
+
+.active_team_subtitle_bounty_reward {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #808080;
+}
+
+.active_team_subtitle_bounty_reward span p {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.active_team_profile_coponent {
+  padding-left: 40px;
+  padding-top: 13px;
+}
+
+.active_team_profile {
+  padding-top: 15px;
+}
+.active_team_profile_img {
+  border-radius: 50%;
+}
+
+.active_team_subtitle_team_commits {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #808080;
+}
+
+.active_team_subtitle_team_commits span p {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.active_team_content_name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+
+  /* brand/footer */
+
+  padding-top: 24px;
+
+  color: #2d2b6f;
+}
+
+.active_team_content_discord {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 5px;
+
+  color: #808080;
+}
+
+.active_team_content_discord_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0%;
+  /* or 0px */
+
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.active_team_content_experience_level {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  display: flex;
+  align-items: center;
+
+  color: #808080;
+}
+
+.active_team_content_experience_level_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 7px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.active_team_content_linkedin_url {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 10px;
+
+  color: #808080;
+}
+.active_team_content_linkedin_url_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0%;
+  /* or 0px */
+
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  cursor: pointer;
+
+  color: #000000;
+}
+
+.active_team_content_languages {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  display: flex;
+  align-items: center;
+
+  color: #808080;
+}
+
+.active_team_language_pills {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: #f4f5f7;
+  background-color: #605f92 !important;
+  border-radius: 20px;
+  padding: 4px 15px;
+  border: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.active_team_content_github_url {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 20px;
+
+  color: #808080;
+}
+
+.active_team_content_github_url_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0%;
+  /* or 0px */
+
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  cursor: pointer;
+
+  color: #000000;
+}
+
+.active_team_content_current_team {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  display: flex;
+  align-items: center;
+
+  color: #808080;
+}
+
+.active_team_content_description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129.69%;
+  /* or 18px */
+
+  padding-top: 46px;
+
+  color: #767676;
+}
+
+.active_team_content_discord_add_rem {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.active_team_button_launch_IDE {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  float: right;
+  cursor: pointer;
+  padding-top: 8px;
+  color: #000000;
+}
+
+.active_team_button_submit_work {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  border: none;
+  background:none;
+  float: right;
+  cursor: pointer;
+  padding-top: 8px;
+  color: #000000;
+}
+
+.active_team_button_go_to_team_page {
+  background: #a900a6;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  float: right;
+  margin-left: 22px;
+}
+.active_team_mentees_container {
+  height: 152px;
+}
+
+.active_team_mentee {
+  text-align: center;
+}
+
+.active_team_button_go_to_team_page_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /*display: flex;*/
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #f4f5f7;
+}
+
+.active_team_content_current_team_name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 20px;
+  /* or 250% */
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-left: 9px;
+  color: #8f8f8f;
+
+}
+.active_team_launch_btn {
+  border: none;
+  align-items: center;
+}
+
+.active_team_content_github_url_v1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  display: flex;
+  align-items: center;
+
+  color: #808080;
+}
+
+.active_team_content_linkedin_url_v1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 15px;
+
+  color: #808080;
+}

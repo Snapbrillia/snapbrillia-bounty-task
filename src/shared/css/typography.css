@@ -1,0 +1,136 @@
+.h1 {
+  font-family: Roboto, serif;
+  font-size: 2em !important;
+  color: #2d2b6f;
+  font-weight: bold !important;
+}
+.h2 {
+  font-family: Roboto, serif;
+  font-size: 1.5em !important;
+  color: #2d2b6f;
+  font-weight: bold !important;
+}
+.h3 {
+  font-family: Roboto, serif;
+  font-size: 1.5em !important;
+  color: #2d2b6f;
+  font-weight: normal !important;
+}
+.h4 {
+  font-family: Roboto, serif;
+  font-size: 1em !important;
+  color: #2d2b6f;
+  font-weight: normal !important;
+}
+.h5 {
+  font-family: Roboto, serif;
+  font-size: 0.875em !important;
+  color: #2d2b6f;
+  font-weight: bold !important;
+}
+.h6 {
+  font-family: Roboto, serif;
+  font-size: 0.75em !important;
+  color: #2d2b6f;
+  font-weight: normal !important;
+}
+.paragraph {
+  font-family: Roboto, serif;
+  font-size: 1em !important;
+  color: #2d2b6f;
+  font-weight: normal !important;
+}
+.paragraph-bold {
+  font-family: Roboto, serif;
+  font-size: 1em !important ;
+  color: #2d2b6f;
+  font-weight: bolder !important;
+}
+.link {
+  font-family: Roboto, serif;
+  font-size: 1em !important;
+  color: #2d2b6f;
+  text-decoration: underline !important;
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+.underline {
+  text-decoration: underline;
+}
+.semi-bold {
+  font-weight: 600;
+}
+.thin {
+  font-weight: 100;
+}
+.light {
+  font-weight: 300;
+}
+.extra-bold {
+  font-weight: 800 !important;
+}
+.strike-through {
+  text-decoration: line-through;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.medium {
+  font-weight: 500;
+}
+.regular {
+  font-weight: normal;
+}
+
+.label {
+  font-size: 0.6875em;
+  color: #808080;
+  margin: 0px;
+}
+.formHeader {
+  font-family: Roboto, serif;
+  font-weight: normal;
+  font-size: 1.125em;
+  color: #2d2b6f;
+}
+.grey-title {
+  font-size: 0.75em;
+  color: #808080;
+}
+.viewed-title {
+  font-family: Roboto, serif;
+  font-size: 0.875em;
+  color: #2d2b6f;
+  font-weight: normal;
+}
+.viewed-date {
+  font-family: Roboto, serif;
+  font-size: 0.625em;
+  color: #2d2b6f;
+  font-weight: normal;
+}
+.viewed-date-subtitle {
+  font-family: Roboto, serif;
+  font-size: 0.5em;
+  color: #808080;
+  font-weight: normal;
+}
+
+.policy_typography {
+  font-family: Roboto, serif;
+  font-size: 0.875em !important;
+  color: #808080;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.step-active-label {
+  color: #a900a6;
+}

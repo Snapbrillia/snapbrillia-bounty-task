@@ -1,0 +1,106 @@
+.my_picture_change_modal_size{
+    width: 680px !important;
+    height: 470px;
+}
+
+.my_picture_change_modal_border{
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.my_picture_change_title_bg{
+    border: none;
+}
+
+.my_picture_change_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* brand/footer */
+    
+    color: #2D2B6F;
+}
+
+.my_picture_change_subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    /* or 160% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #2D2B6F;
+}
+
+.my_picture_change_profile_image{
+    border-radius: 50%;
+}
+
+.my_picture_change_upload_btn{
+    background: #00ABFE;
+    cursor: pointer;
+
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #f4f5f7;
+    border: none;
+    font-family: Roboto, serif;
+    font-size: 12px;
+    width: 104px;
+    padding: 8px;
+}
+
+.my_picture_change_upload_btn_content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #F4F5F7;
+}
+
+.my_picture_change_photo_btn{
+    background: #E6E6E6;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    font-family: Roboto, serif;
+    font-size: 12px;
+    width: 104px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.my_picture_change_photo_btn_content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    /* brand/footer */
+    
+    color: #2D2B6F;
+}

@@ -1,0 +1,83 @@
+.mentor-bg {
+  padding: 10px;
+  margin: 10px 5px 10px 5px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.mentor-office-hour-align {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.team-profile-small-text {
+  font-size: 11px;
+}
+
+/* .team-profile-url {
+    text-decoration: underline;
+    font-size: 16px;
+    padding-top: 5px;
+  } */
+
+.team-profile-officehour-title {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.team-profile-officehour {
+  font-size: 13px;
+}
+.office-hour-component {
+  padding-left: 20px;
+}
+
+/* .mentor-container {
+    margin: 10px 5px 10px 5px;
+    border-radius: 10px;
+  } */
+
+.mentee-list-container-large {
+  padding-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 10px;
+  background-color: #fafafa00;
+}
+
+.mentee-list-container {
+  padding: 10px;
+  margin: 10px 5px 10px 5px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.mentee-list-col-spaceing {
+  margin: 5px 5px;
+  display: contents;
+}
+
+.mentee-list-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(213, 213, 216);
+}
+.name {
+  font-family: Roboto, serif;
+  font-size: 1.5em !important;
+  color: #2d2b6f;
+  font-weight: bold !important;
+  margin-bottom: -0px;
+}
+a {
+  color: black;
+  font-size: large;
+}
+.title {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+  font-size: small;
+  margin-bottom: 20px !important;
+}

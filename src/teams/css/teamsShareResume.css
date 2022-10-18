@@ -1,0 +1,13 @@
+.resume-checkbox {
+  transform: scale(1.5);
+  margin-top: 0.9rem;
+}
+
+.resume-cursor-pointer {
+  cursor: pointer;
+}
+
+.resume-checkbox-column {
+  width: 1px;
+  height: auto;
+}

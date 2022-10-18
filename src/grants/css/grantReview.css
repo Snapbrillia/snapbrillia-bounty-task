@@ -1,0 +1,25 @@
+.grant-review-back {
+  font-size: 1.2em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.grant-review-back-button {
+  width: auto;
+  transform: scale(1.2);
+  margin-bottom: 20px;
+}
+
+.grant-review-container {
+  /* flex: 1; */
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  min-height: calc(100vh - 98px);
+  display: flex;
+  flex-direction: column;
+}
+
+.grant-review-main {
+  flex: 1;
+  position: relative;
+}

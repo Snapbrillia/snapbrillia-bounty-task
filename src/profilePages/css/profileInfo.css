@@ -1,0 +1,25 @@
+.profile_save_button {
+  text-decoration: underline;
+  border-radius: 20px;
+  border: none;
+  background-color: #a900a6;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto, serif;
+  padding: 5px 25px;
+  margin-right: 46px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.profile_cancel_button {
+  text-decoration: underline;
+  border-radius: 20px;
+  border: none;
+  background-color: #b8b8b8;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto, serif;
+  padding: 5px 25px;
+  margin-right: 46px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+}

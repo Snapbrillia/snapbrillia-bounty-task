@@ -1,0 +1,325 @@
+.share-mentees-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000;
+}
+
+.share-mentees-description {
+  font-size: 1.1em;
+  color: #808080;
+  margin-top: 20px;
+}
+
+.share-mentees-bottom {
+  margin-top: 40px;
+  padding-left: 0;
+}
+
+.share-mentees-bottom .description {
+  color: #808080;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.share-mentees-details .description {
+  margin-top: 50px;
+}
+
+.share-mentees-bottom .textarea {
+  position: relative;
+  right: 12px;
+  height: 100%;
+  padding-left: 12px;
+  width: 100%;
+  background-color: #f4f4f4;
+  border: none;
+  resize: none;
+  overflow-y: hidden;
+  outline: unset;
+  padding: 10px;
+  border-radius: 6px;
+  overflow: auto;
+  top: 5px;
+}
+
+.share-mentees-bottom .wordCount {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 12px;
+  font-size: 0.9em;
+  color: #808080;
+}
+
+.share-mentees-details {
+  /* margin-top:21.6px; */
+  position: relative;
+  height: 100%;
+  top: 26px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  padding: 30px 20px 20px 30px;
+}
+
+.share-mentees-categories {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.share-mentees-form-control {
+  padding-left: 0px;
+}
+
+.share-mentees-form-control-text {
+  padding-left: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  bottom: 5px;
+}
+
+.share-mentees-form-control-text-checkbox {
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  /* bottom: 5px; */
+}
+
+.share-mentees-form-control [type='radio']:checked,
+.share-mentees-form-control [type='radio']:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+.share-mentees-form-control [type='radio']:checked + label,
+.share-mentees-form-control [type='radio']:not(:checked) + label {
+  position: relative;
+  /* padding-left: 20px; */
+  cursor: pointer;
+  /* line-height: 20px; */
+  display: inline-block;
+  color: #808080;
+}
+
+[type='radio']:checked + label:before,
+[type='radio']:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ddd;
+  border-radius: 100%;
+  background: #fafafa;
+}
+
+[type='radio']:checked + label:after,
+[type='radio']:not(:checked) + label:after {
+  content: '';
+  width: 8.5px;
+  height: 8.5px;
+  background: #808080;
+  position: absolute;
+  top: 4px;
+  left: 3.4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[type='radio']:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+[type='radio']:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* checkboxes */
+
+.share-mentees-checkboxes input[type='checkbox'] {
+  height: 0;
+  width: 0;
+}
+
+.share-mentees-checkboxes input[type='checkbox'] + label {
+  position: relative;
+  display: flex;
+  /* margin: .6em 0; */
+  margin-top: 1px;
+  margin-bottom: 2px;
+  align-items: center;
+  color: #9e9e9e;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.23, 1);
+}
+
+.share-mentees-checkboxes
+  input[type='checkbox']
+  + label
+  > .share-mentees-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 3px; */
+  /* margin-right: 1em; */
+  width: 1em;
+  height: 1em;
+  background-color: #f4f4f4;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.23, 1);
+}
+
+/* input[type='checkbox']:checked + label > ins{ height: 100%; } */
+
+.share-mentees-checkboxes
+  input[type='checkbox']:checked
+  + label
+  > .share-mentees-checkbox {
+  border: 0.5em solid #ced4da;
+  animation: shrink-bounce 200ms cubic-bezier(0.4, 0, 0.23, 1);
+}
+
+.share-mentees-checkboxes
+  input[type='checkbox']:checked
+  + label
+  > .share-mentees-checkbox:before {
+  content: '';
+  position: absolute;
+  top: 0.5em;
+  left: 0em;
+  border-right: 2.5px solid transparent;
+  border-bottom: 2.5px solid transparent;
+  transform: rotate(10deg);
+  transform-origin: 50% 100%;
+  animation: checkbox-check 80ms 250ms cubic-bezier(1, 0, 0.23, 1) forwards;
+}
+
+@keyframes shrink-bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  33% {
+    transform: scale(0.85);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes checkbox-check {
+  0% {
+    width: 0;
+    height: 0;
+    border-color: #212121;
+    transform: translate3d(0, 0, 0) rotate(10deg);
+  }
+
+  33% {
+    width: 0.2em;
+    height: 0;
+    transform: translate3d(0, 0, 0) rotate(60deg);
+  }
+
+  100% {
+    width: 0.5em;
+    height: 0.8em;
+    border-color: #212121;
+    transform: translate3d(0, -0.5em, 0) rotate(30deg);
+  }
+}
+
+@keyframes bounty-table-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+    /* transform-origin: 50% 50%; */
+    /*  position: relative;
+      top: 3px; */
+    /* transform: translate(0, 3px); */
+  }
+}
+
+@keyframes bounty-table-recover {
+  from {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+    /* translate: (0, 5px); */
+    /* position: relative;
+      top: 3px; */
+  }
+}
+
+@keyframes menu-open {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes menu-close {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+}
+
+.share-mentees-dropdownMenu {
+  animation: menu-open 0.5s ease-in-out;
+}
+
+.menu--close {
+  animation: menu-close 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 767.9px) {
+  .share-mentees-dropdown__menu {
+    width: calc(80% - 50px) !important;
+    /* width: 80% !important; */
+  }
+}
+
+@media only screen and (max-width: 991.9px) {
+  .share-mentees-details {
+    margin-top: 50px;
+  }
+}
+
+.share-mentees-bottom textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* .share-mentees-bottom textarea::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+} */
+
+.share-mentees-bottom textarea::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 20px;
+  background: #afafaf;
+}

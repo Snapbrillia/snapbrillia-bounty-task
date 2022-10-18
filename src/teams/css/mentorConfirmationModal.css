@@ -1,0 +1,61 @@
+.mentor-conf-modal-purple-text {
+  color: #a900a6;
+}
+
+.mentor-conf-modal-content div {
+  border: none;
+  border-radius: 10px;
+}
+
+.mentor-conf-modal-border-radius-1 {
+  border-radius: 0.5rem !important;
+}
+
+.mentor-conf-modal-height-100 {
+  height: 90%;
+  min-height: 200px;
+}
+
+.mentor-conf-modal-rating-text-fs {
+  font-size: 0.9rem;
+}
+
+.mentor-conf-modal-username-text {
+  font-size: 1.5rem;
+}
+
+.mentor-conf-modal-icon {
+  width: 25%;
+}
+
+.mentor-conf-modal-icon-sm {
+  width: 10%;
+}
+
+.mentor-conf-modal-resume-btn-fs {
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.mentor-conf-modal-btn-link-fs {
+  font-size: 0.9rem;
+}
+
+.mentor-conf-modal-schedule-text-fs {
+  font-size: 0.9rem;
+}
+
+.mentor-conf-modal-calendar-link {
+  font-size: 0.8rem;
+}
+
+.mentor-conf-modal-cursor-pointer {
+  cursor: pointer;
+}
+
+.mentor-conf-modal-cursor-default,
+.StarPickerButton,
+.disabled {
+  cursor: default !important;
+}

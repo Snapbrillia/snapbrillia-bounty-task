@@ -1,0 +1,181 @@
+.completedteamsdetails-box {
+  min-width: fit-content;
+  background: #fafafa;
+  border-radius: 18.8092px;
+}
+.completedteamsdetails-box-title-section {
+  display: contents;
+  justify-content: left;
+  align-items: center;
+}
+.completedteamsdetails-box-title {
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  color: #492b6f;
+}
+.hyperledger-labs-name {
+  position: absolute;
+  padding-top: 69px;
+  font-size: 19.0538px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+  text-decoration: underline;
+}
+.hyperledger-labs-logo {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.bounty-reward-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: #808080;
+}
+.money-text {
+  font-family: Roboto, sans-serif;
+  color: #450044;
+  text-align: right;
+  font-weight: 700;
+  float: right;
+  font-size: 32px;
+  padding-right: 20px;
+}
+.crypto-text-num {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #957b94;
+  text-align: right;
+}
+.crypto-text-letter {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: right;
+  color: #957b94;
+  padding-right: 9px;
+}
+.express-interest-button {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+
+  background-color: #a900a6;
+  color: #fff;
+  font-weight: 700;
+  width: 150px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  padding: 9px 0px;
+  border: #fff;
+  border-radius: 20px;
+}
+.share-link {
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-right: 23px;
+  padding-left: 5px;
+}
+.section1 {
+  padding-top: 39px;
+  color: #000000;
+  padding-left: 41px;
+}
+.section2 {
+  padding-top: 39px;
+  text-align: left;
+  padding-left: 193px;
+  color: #39b54a;
+}
+.section3 {
+  padding-top: 39px;
+  padding-left: 193px;
+}
+.coding-language-text {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  color: #000000;
+}
+.bottom-text {
+  font-family: Roboto, sans-serif;
+  font-size: 19px;
+  margin-top: 30px;
+  text-align: left;
+  color: #000000;
+  min-width: max-content;
+}
+.top-text {
+  font-family: Roboto, sans-serif;
+  font-size: 19px;
+  padding-top: 12px;
+  padding-left: 14px;
+  margin-bottom: 10px;
+}
+.web3-text {
+  font-family: Roboto, sans-serif;
+  font-size: 19px;
+  margin-top: 30px;
+  text-align: left;
+  color: #000000;
+  min-width: max-content;
+}
+.top-sub-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #808080;
+}
+.bottom-sub-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 20px;
+  font-size: 12px;
+  color: #808080;
+}
+.square {
+  background: #faa81a;
+  border-radius: 2px;
+  padding-left: 5px;
+  height: 10px;
+  width: 10px;
+}
+.circle {
+  width: 7.07px;
+  height: 8px;
+  background-color: #39b54a;
+  margin-right: 3.54px;
+  border-radius: 50%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #f29111;
+}
+
+.github {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  color: #808080;
+}

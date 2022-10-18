@@ -1,0 +1,85 @@
+.confirm_team_select_componrnt_bg_1 {
+  background: #ffffff;
+  /* Teenie Tiny */
+
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.confirm_team_select_componrnt_bg_2 {
+  background: #ffffff;
+  /* Teenie Tiny */
+
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.confirm_team_select_componrnt_name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: capitalize;
+
+  /* brand/footer */
+
+  color: #2d2b6f;
+}
+
+.confirm_team_select_componrnt_photo {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.confirm_team_select_componrnt_reviews {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 28px;
+  /* or 440% */
+
+  display: flex;
+  align-items: center;
+
+  color: #c4c4c4;
+}
+
+.confirm_team_select_componrnt_resume_chain_icon {
+  padding-top: '10px';
+}
+
+.confirm_team_select_componrnt_resume_chain {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 314% */
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  color: #605f92;
+}
+
+.confirm_team_select_componrnt_linkedin_discord_github {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  /* or 367% */
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  color: #000000;
+}

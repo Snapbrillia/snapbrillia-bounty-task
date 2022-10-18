@@ -1,0 +1,72 @@
+.bounty-sideMenu-container {
+  border-radius: 20px;
+  margin-left: 1rem;
+  background-color: #fafafa;
+}
+
+.bounty-sideMenu-search {
+  outline: none;
+  width: 100%;
+  border: unset;
+  padding: 0.3em 0 0.3em 0.8em;
+  color: #8f8f8f;
+  font-family: Roboto, serif;
+  background-color: #ececec;
+  border-radius: 7px;
+}
+
+.bounty-sideMenu-dropDown {
+  outline: none;
+  width: 100%;
+  border: unset;
+  padding: 0.3em 0 0.3em 0.8em;
+  color: #8f8f8f;
+  background-color: #ececec;
+  font-family: Roboto, serif;
+  border-right: 16px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bounty-sideMenu-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Roboto, serif;
+  color: #8f8f8f;
+}
+
+.bounty-sideMenu-light-grey {
+  color: #8f8f8f;
+  font-weight: bold;
+}
+
+.bounty-sideMenu-btn {
+  font-family: Roboto, serif;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 20px 17px;
+  border: none;
+  margin-left: 55%;
+}
+
+.bounty-sideMenu-btn:hover {
+  text-decoration: underline;
+}
+
+.bounty-sideMenu-details-info {
+  color: #2d2b6f;
+  font-size: 18px;
+}
+
+.bounty-side-label-rm-radio::before {
+  display: none !important;
+}
+
+.bounty-side-label-rm-radio::after {
+  display: none !important;
+}

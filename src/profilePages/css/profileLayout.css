@@ -1,0 +1,36 @@
+.profile-info-component-bg {
+  width: 1320px;
+  height: 306px;
+  background: #fafafa;
+  border-radius: 30px;
+}
+
+.profile-info-row {
+  height: 46px;
+}
+
+.profile-info-column {
+  height: 65px;
+}
+
+.profile-info-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #2d2b6f;
+}
+
+.profile-info-edit_icon {
+  height: 17px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.profile-info-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.profile-info-testcase {
+  font-weight: 400;
+  font-size: 18px;
+}

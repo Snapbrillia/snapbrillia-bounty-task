@@ -1,0 +1,29 @@
+.circular-square { 
+    border-radius: 50%; 
+    height:40px ;
+    padding: 0px;
+}
+
+.wallet-modal {
+    position: absolute;
+    padding: 15px 10px;
+    width: 150px;
+    top: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.12);
+}
+
+.wallet-select{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.wallet-select span{
+    display: inline-block;
+    width:125px;
+}
+
+.wallet-select img{
+    display: inline-block;
+}

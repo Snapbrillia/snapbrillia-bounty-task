@@ -1,0 +1,88 @@
+.grant-side-menu-container {
+  background-color: #fafafa;
+  border-radius: 20px;
+  margin-left: 1rem;
+}
+
+.grant-side-menu-search {
+  outline: none;
+  width: 100%;
+  border: unset;
+  padding: 0.3em 0 0.3em 0.8em;
+  color: #8f8f8f;
+  font-family: Roboto, serif;
+  background-color: #ececec;
+  border-radius: 7px;
+}
+
+.grant-side-menu-pill {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #605f92;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.03);
+  border-radius: 30px;
+  padding: 3px 6px 3px 12px;
+  margin-bottom: 7px;
+  margin-right: 7px;
+  color: #ffff;
+  display: flex;
+}
+
+.grant-side-menu-pill-padding {
+  padding: 3px 12px !important;
+}
+
+.grant-side-menu-pill-not-active {
+  background-color: #ffff !important;
+  color: #605f92 !important;
+}
+
+.grant-side-menu-close-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 8px; */
+  width: 23px;
+}
+
+.grant-side-menu-searched-pills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grant-side-menu-dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none !important;
+}
+
+.grant-side-menu-dropdown-main > button::after {
+  display: none;
+}
+
+.grant-side-menu-dropdown-main > button > svg {
+  float: right;
+}
+
+.grant-side-menu-dropdown-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.grant-side-menu-dropdown-colors {
+  background-color: #f4f4f4 !important;
+  color: #8f8f8f !important;
+}
+
+.grant-side-menu-dropdown::after {
+  display: none;
+}
+
+.grant-side-menu-dropdown > .dropdown-menu {
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+.teams_header_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+
+  padding-left: 40px;
+  padding-top: 18px;
+
+  /* brand/footer */
+
+  color: #2d2b6f;
+}
+
+.teams_header_context {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  padding-left: 40px;
+  padding-top: 24px;
+  padding-right: 40px;
+
+  color: #808080;
+}
+
+.teams_header_image {
+  text-align: center;
+  padding-top: 36px;
+  font-size: 40px;
+
+  padding-right: 40px;
+}

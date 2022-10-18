@@ -1,0 +1,200 @@
+.mentors-personal-info-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+
+  /* padding-top: 40px; */
+
+  color: #000000;
+}
+
+.mentors-personal-info-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  padding-top: 10px;
+
+  color: #808080;
+}
+
+.mentors-personal-info-view-resume {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  color: #a900a6;
+}
+
+.mentors-personal-info-undertitle {
+  background-color: #FAFAFA;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 2px;
+  padding: 20px;
+}
+
+.mentors_personal_information_content_title_row_name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 38px;
+  color: #808080;
+}
+
+.mentors_personal_information_content_title_row_location {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 42px;
+  padding-left: 38px;
+  color: #808080;
+}
+
+.mentors_personal_information_content_container {
+  padding-right: 35.5px;
+}
+
+.mentors_personal_information_content_container_right {
+  padding-left: 35.5px;
+}
+
+.personal_information_content_title_row_1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  color: #808080;
+}
+
+.mentors_personal_information_content_profile {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  /* or 89% */
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 18px;
+  padding-left: 38px;
+  /* brand/footer */
+
+  color: #2d2b6f;
+}
+.mentors_personal_information_mobile .personal_information_picture_profile {
+  margin: 0 auto;
+}
+
+.personal_information_picture_profile {
+  position: relative;
+  height: 170px;
+  width: 170px;
+  overflow: hidden;
+}
+
+.personal_edit_picture_profile {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.personal_information_picture_edit_profile {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 170px;
+  min-height: 50px;
+  padding: 5%;
+  background-color: #8d8d8de0;
+}
+.personal_information_picture_edit_profile span:first-child {
+  border-right: 1px solid #ffffff;
+}
+.personal_information_picture_edit_profile span {
+  font-size: 0.8rem;
+  padding: 3px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.mentors-personal-info-explain {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+  color: #9d9d9d;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.mentors-personal-info-url {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+  color: #808080;
+  padding-top: 35px;
+  padding-left: 50px;
+}
+.mentors-personal-info-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+@media only screen and (max-width: 580px) {
+  .mentors_personal_information_content_container {
+    padding: 0;
+  }
+  .mentors_personal_information_content_container_right {
+    padding: 30px 0 0 0;
+  }
+  .mentors_personal_information_content_container div {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0;
+  }
+  .mentors_personal_information_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

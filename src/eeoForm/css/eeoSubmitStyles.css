@@ -1,0 +1,29 @@
+.eeo-submit-section {
+  width: 50%;
+  height: 55vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.eeo-submit-res {
+  text-align: left;
+  margin: 20px auto;
+}
+.eeo-submit-res p {
+  margin-bottom: 5px;
+}
+.eeo-not-answered {
+  color: #8f8f8f !important;
+}
+@media screen and (max-width: 1500px) {
+  .eeo-submit-section {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .eeo-submit-section {
+    overflow-y: scroll;
+  }
+}

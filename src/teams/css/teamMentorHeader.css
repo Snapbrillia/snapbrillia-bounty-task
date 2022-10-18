@@ -1,0 +1,41 @@
+.mentor-page-header {
+  padding-top: 15pt;
+  padding-bottom: 17pt;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  color: #2d2b6f;
+}
+.mentor-page-illus {
+  width: stretch;
+  height: stretch;
+}
+
+.team-mentor-note {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #808080;
+}
+
+.bounty-note {
+  padding-top: 21pt;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #808080;
+}
+
+.bounty-title {
+  color: #2d2b6f;
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -1,0 +1,108 @@
+.teams_review_congratulation {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+  /* or 136% */
+
+  display: flex;
+  align-items: center;
+
+  /* brand/footer */
+
+  color: #2d2b6f;
+}
+
+.teams_review_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  display: flex;
+  align-items: center;
+
+  color: #cdcecf;
+}
+
+.teams_review_share {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.teams_review_reward {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #808080;
+}
+
+.teams_review_reward_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: capitalize;
+
+  color: #450044;
+}
+
+.teams_review_reward_subcontent {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-transform: capitalize;
+
+  color: #957b94;
+}
+
+.teams_review_button {
+  background: #a900a6;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+}
+
+.teams_review_button_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /*display: flex;*/
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #f4f5f7;
+}

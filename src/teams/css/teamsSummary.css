@@ -1,0 +1,40 @@
+.team-summary-container {
+  padding: 5px;
+  margin: 15px 5px 10px 5px;
+}
+
+.team-paragraph-small {
+  font-family: Roboto, serif;
+  font-size: 1em !important;
+  color: #808080;
+  font-weight: normal !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.team-paragraph-link {
+  font-family: Roboto, serif;
+  font-size: 1em !important ;
+  color: #000000;
+  font-weight: bolder !important;
+}
+
+.team-paragraph-bold {
+  font-family: Roboto, serif;
+  font-size: 1em !important;
+  color: #000000;
+  font-weight: bolder !important;
+  margin-bottom: 0;
+}
+
+.language-button {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: #f4f5f7;
+  background-color: #605f92 !important;
+  border-radius: 20px;
+  padding: 6px 20px;
+  border: none;
+  margin-right: 10px;
+}

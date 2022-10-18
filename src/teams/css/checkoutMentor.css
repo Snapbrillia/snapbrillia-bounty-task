@@ -1,0 +1,40 @@
+.checkout-mentor-component {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.checkout-mentor-image {
+    border-radius: 50px;
+}
+.checkout-mentor-name {
+    font-family: 'Roboto';
+    color: #2D2B6F;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+.checkout-mentor-description {
+    font-family: 'Roboto';
+    color: #A900A6;
+    font-weight: 600;
+    font-size: 10px;
+}
+.checkout-mentor-detail {
+    font-family: 'Roboto';
+    color: #808080;
+    font-weight: 400;
+    font-size: 12px;
+}
+.checkout-mentor-us {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px; 
+    color: #450044;
+}
+.checkout-mentor-ada {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px; 
+    color: #957B94;
+}

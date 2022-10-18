@@ -1,0 +1,66 @@
+.peer-review-container {
+    height: 80%;
+    border-radius: 20px;
+    padding: 1.5%;
+    box-shadow: 1px 1px 15px 2px #8d8b8b;
+    min-height: 450px;
+    min-width: 456px;
+    background-color: white;
+}
+
+.peer-review-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    width: 8.5%; 
+    min-width: 60px;
+    height: 8.5%;
+    min-height: 60px;
+    margin: 2%;
+    /* max-height: 220px; */
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+    background-image: url("../../assets/profile-photo.jpeg");
+    background-repeat: no-repeat;
+  }
+
+.test{
+    width: 25%;
+
+  }
+
+.peer-name{
+      margin-top: 7%;
+      font-size: 1.5rem;
+      font-weight: 675;
+      color: #2d2b6f;
+  }
+
+.peer-role{
+    font-size: 0.75rem;
+    color: #686868;
+    margin-top: 0px;
+}
+
+
+.stars{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 0px;
+
+}
+
+.text-box-entry{
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    height: 15em;
+    border: 0px;
+    /* margin-right: 10px;*/
+    margin-left: 2.4%; 
+    width: 95%;
+}
+
+.button{
+    padding-left: 3%;
+    margin-right: 20px;
+}

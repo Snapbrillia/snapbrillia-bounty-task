@@ -1,0 +1,36 @@
+.mentee-list-container {
+  padding: 10px;
+  margin: 10px 5px 10px 5px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.mentee-list-col-spaceing {
+  margin: 5px 5px;
+  display: contents;
+}
+
+.mentee-list-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(213, 213, 216);
+  border: 1px solid rgb(61, 59, 59);
+}
+.name {
+  font-family: Roboto, serif;
+  font-size: 1.5em !important;
+  color: #2d2b6f;
+  font-weight: bold !important;
+  margin-bottom: -0px;
+}
+a {
+  color: black;
+  font-size: large;
+}
+.title {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+  font-size: small;
+  margin-bottom: 20px !important;
+}

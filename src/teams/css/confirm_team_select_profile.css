@@ -1,0 +1,169 @@
+.confirm_team_select_profile_photo {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.confirm_team_select_profile_photo_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    
+    /* brand/footer */
+    
+    color: #2D2B6F;
+}
+
+.confirm_team_select_profile_bg{
+    background: #FFFFFF;
+    /* Teenie Tiny */
+    
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.confirm_team_select_profile_content_p{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.confirm_team_select_profile_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.confirm_team_select_profile_review{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 44px;
+    /* or 367% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #C4C4C4;
+}
+
+.confirm_team_select_profile_resume_chain{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 314% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #605F92;
+}
+
+.confirm_team_select_profile_icon_pos{
+    margin-top: 100px;
+}
+
+.confirm_team_select_profile_subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #808080;    
+}
+
+.confirm_team_select_profile_content_1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.confirm_team_select_profile_content_2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129.69%;
+    /* or 18px */
+    
+    
+    color: #000000;
+}
+
+.confirm_team_select_profile_img{
+    border-radius: 50%;
+}
+
+.confirm_team_select_profile_mentee_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #808080;
+}
+
+.confirm_team_select_profile_mentee_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    /* or 250% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8F8F8F;
+}
+
+.confirm_team_select_profile_m{
+    margin-top: 40px;
+}
+
+.confirm_team_select_profile_button{
+    background: #A900A6;
+    box-shadow: 0px 0px 2px 1px rgba(91, 89, 89, 0.25);
+    border-radius: 20px;
+    float: right;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #F4F5F7;
+}

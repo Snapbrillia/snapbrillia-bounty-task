@@ -1,0 +1,77 @@
+.mentors-linked-accounts-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.mentors-linked-accounts-row {
+  background-color: #fafafa;
+  padding-top: 10px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.mentors-linked-accounts-icon {
+  height: 35px;
+  width: 35px;
+}
+
+.mentors-linked-accounts-subtitle {
+  color: #2d2b6f;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.mentors-linked-accounts-required {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #808080;
+}
+
+.mentors-linked-accounts-connect {
+  align-items: right;
+  text-align: right;
+  color: #43cd69;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.mentors-linked-accounts-line-below {
+  align-items: right;
+  text-align: right;
+  color: #808080;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  /* padding-top: 1.5em; */
+}
+
+.mentors-linked-accounts-click {
+  cursor: pointer;
+  color: #605f92;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  padding-top: 1.5em;
+}
+@media screen and (max-width: 767px) {
+  .mentors-linked-accounts-click {
+    padding-top: 1em;
+  }
+  .mentors-linked-accounts-line-below {
+    padding-top: 3em;
+  }
+}

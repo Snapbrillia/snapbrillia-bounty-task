@@ -1,0 +1,16 @@
+.thankyoupurchase-illustration-container {
+    height: 100vh;
+    margin-top: auto;
+  }
+  
+  .thankyou-purchase-success-text {
+    padding-top: 10%;
+  }
+  
+  .thankyou-text {
+    font-size: 40px;
+  }
+  
+  .thankyou-contribution-text {
+    font-size: 24px;
+  }

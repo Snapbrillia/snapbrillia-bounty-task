@@ -1,0 +1,66 @@
+.dropdown-box-shadow {
+  border-radius: 10px !important;
+  box-shadow: 0px 0px 12px 4px rgb(0 0 0 / 12%) !important;
+}
+
+.wallet-dropdown-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 0.25em;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wallet-dropdown-menu {
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.12);
+  width: 320px;
+}
+
+.wallet-dropdown-item {
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem !important;
+}
+.wallet-dropdown-item:hover {
+  background-color: #e4ccff !important;
+}
+.span {
+  padding: 14px;
+}
+
+.wallet-dropdown-header {
+  font-family: Roboto, serif;
+  font-size: 20px !important;
+  color: #2d2b6f !important;
+  font-weight: 700 !important;
+  text-align: left;
+  padding: 12px 24px 0px 12px;
+}
+
+.wallet-dropdown-text {
+  color: #676692;
+  font-weight: 500;
+  padding: 14px;
+}
+
+.wallet-dropdown-item:hover span {
+  color: #2d2b6f;
+}
+.wallet-dropdown-item:last-child {
+  border-radius: 0 0 9px 9px;
+}
+
+.connected-wallet-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.helper-text {
+  font-family: Roboto, serif;
+  font-size: 12px;
+  color: #2d2b6f;
+  font-weight: normal;
+  display: block;
+}

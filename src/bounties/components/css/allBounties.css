@@ -1,0 +1,39 @@
+.bounties-sortby-dropDown select {
+  outline: none;
+  width: 100%;
+  border: unset;
+  border-radius: 6px;
+  padding: 0.3em 0 0.3em 0.5em;
+  color: #6c757d;
+  background-color: #8080803a;
+  font-family: Roboto, serif;
+  border-right: 16px solid transparent;
+}
+
+.bounties-badge-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.bounties-bg-color {
+  background-color: #fafafa;
+}
+
+.bounties-crypto-reward-text-color {
+  color: #957b94;
+}
+
+.bounites-light-grey-text-color {
+  color: #808080;
+}
+
+.bounties-view-bounty-link-text-color {
+  color: #605f92;
+}
+
+.teams-mentor-fs {
+  font-size: .8rem;
+}
+
+.main-language {
+  text-transform: capitalize;
+}

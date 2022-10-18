@@ -1,0 +1,38 @@
+.cart-modal-container {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 85px;
+  height: 85px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cart-modal-icon {
+  width: 40px;
+  height: 40px;
+  color: #2d2b6f;
+}
+
+.cart-modal-items {
+  background: #a900a6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Roboto, serif;
+  font-weight: 700;
+  position: absolute;
+  top: -7px;
+  left: 28px;
+}

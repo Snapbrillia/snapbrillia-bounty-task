@@ -1,0 +1,63 @@
+.tool-tip-status::before {
+  content: '';
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #32cd32;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.tool-tip-difficulty {
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.tool-tip-difficulty::before {
+  content: '';
+  width: 0.7em;
+  height: 0.7em;
+  display: inline-block;
+  margin-right: 3px;
+  border-radius: 3px;
+}
+
+.tool-tip-difficulty.easy::before {
+  background-color: #32cd32;
+}
+
+.tool-tip-difficulty.acceptAll::before {
+  background-color: #32cd32;
+}
+
+.tool-tip-difficulty.medium::before {
+  background-color: #ffa500;
+}
+
+.tool-tip-difficulty.needApproval::before {
+  background-color: red;
+}
+
+.tool-tip-difficulty.hard::before {
+  background-color: red;
+}
+
+.tool-tip-languages::before {
+  content: '';
+  display: inline-block;
+  border-top: 0.5em solid transparent;
+  border-bottom: 0.5em solid #ffa500;
+  border-left: 0.5em solid transparent;
+  border-right: 0.5em solid transparent;
+  margin-right: 4px;
+}
+
+.tooltip-github-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.bounty-status {
+  text-transform: capitalize;
+}

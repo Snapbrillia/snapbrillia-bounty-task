@@ -1,0 +1,25 @@
+.featured-bounties {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.25);
+}
+
+.bounty-title-text-color {
+  color: #2d2b6f;
+}
+
+.bounty-link {
+  color: #808080;
+}
+
+.view-bounty-link-text-color {
+  color: #605f92;
+}
+
+.reward-title {
+  color: #808080;
+}
+
+.reward-amount-text-color {
+  color: #450044;
+}

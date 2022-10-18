@@ -1,0 +1,54 @@
+.modal-radius {
+  border-radius: 20px;
+}
+
+.row-border {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.footer-border {
+  border-top: 1px solid black;
+}
+
+.no-border {
+  border: none;
+}
+
+.item-title {
+  font-family: Roboto, serif;
+  font-size: 1.0875em !important;
+  color: #2d2b6f;
+  font-weight: bold !important;
+}
+
+.grey-labels {
+  font-family: Roboto, serif;
+  font-size: 1em !important;
+  color: #808080;
+}
+
+.small-cart-remove-label {
+  font-family: Roboto, serif;
+  font-size: 12px !important;
+  color: #c72222;
+}
+
+.remove-align {
+  display: flex;
+  align-items: flex-end;
+}
+
+.scrollable-cart {
+  overflow-y: auto;
+  height: 580px;
+}
+
+.small-cart-img {
+  width: 58.8px;
+  height: 58.8px;
+  border-radius: 5px;
+}
+
+.small-cart-header-border {
+  border-bottom: none !important;
+}

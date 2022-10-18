@@ -1,0 +1,198 @@
+.nav-bar-border-radius {
+  font-family: Roboto, serif;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.nav-bar-box-shadow {
+  box-shadow: 0px 0px 18px -4px rgba(104, 97, 97, 0.25);
+}
+
+.nav-link-list {
+  list-style: none;
+}
+.nav-bar-menus {
+  text-align: right;
+  justify-content: inherit;
+}
+
+.nav-logo {
+  width: 250px;
+}
+
+.nav-link-text {
+  font-size: 1.25em;
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #2d2b6f;
+}
+
+.nav-link-text:last-child {
+  margin-right: 0px;
+}
+
+.nav-link-text.active {
+  font-weight: bolder;
+}
+
+.nav-icon-container {
+  padding-left: 1rem !important;
+}
+
+.nav-bar-icon {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.nav-bar-profile-img {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.nav-bar-btn-outline-light:hover {
+  background-color: transparent !important;
+}
+
+.nav-bar-btn-outline-light:focus {
+  box-shadow: none !important;
+}
+
+.nav-bar-dropdown-toggle::after {
+  display: none !important;
+}
+
+.border-right-light {
+  border-right: 1px solid #cdcdcd;
+}
+
+.messages-notifications {
+  position: relative;
+}
+.messages-count {
+  background-color: #a900a6;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  position: absolute;
+  top: 0px;
+  left: 36px;
+  padding: 4px 4px;
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.nav-link-list li:hover,
+.container-dropdown-nav-bar a:hover svg {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.nav-link-list li {
+  margin: 0 2.5rem;
+}
+
+.nav-link-list a {
+  font-size: 1.25em;
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #2d2b6f !important;
+}
+
+.btn-signup {
+  border-radius: 5px;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.dropdown-header-nav-bar input {
+  outline: none;
+  width: 250px;
+  border: unset;
+  padding: 0.3em 0 0.3em 0.8em;
+  color: #8f8f8f;
+  font-family: Roboto, serif;
+  background-color: #ececec;
+  border-radius: 7px;
+}
+.dropdown-header-nav-bar label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+.dropdown-header-nav-bar p {
+  color: #8f8f8f;
+  font-size: 0.8rem;
+}
+.btn-continue {
+  color: #2d2b6f;
+  font-size: 1rem;
+}
+
+@media (max-width: 1020px) {
+  .nav-link-list li {
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-logo {
+    flex: 10%;
+  }
+  .nav-bar-menus {
+    flex: 3 1;
+  }
+  .nav-link-text {
+    font-size: 1rem;
+  }
+  .nav-link-list li {
+    margin: 0 1rem;
+  }
+  ul.nav-link-list {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .nav-link-list li {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .sm-screen-margin {
+    margin-left: 0.5rem;
+  }
+  .text-start-sm {
+    text-align: left;
+  }
+  .drop-downs-sm-right-auto-profile {
+    right: -15px !important;
+    left: auto !important;
+  }
+  .drop-downs-sm-right-auto-wallet {
+    top: 130% !important;
+    right: -40px !important;
+    left: auto !important;
+    max-width: 305px !important;
+  }
+  .notifications-modal {
+    top: 40px !important;
+    right: -80px !important;
+    left: auto !important;
+    width: 300px;
+  }
+}
+
+@media (max-width: 326px) {
+  .nav-icon-container {
+    padding-left: 0px !important;
+  }
+  .nav-bar-profile-img {
+    margin-left: 0.5rem;
+  }
+}

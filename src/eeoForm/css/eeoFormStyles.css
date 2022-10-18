@@ -1,0 +1,128 @@
+.eeo-form-section {
+  margin: 0 auto;
+  align-items: center;
+  width: 75%;
+  margin-top: 2px;
+}
+.eeo-form-disclaimer {
+  font-size: 8px;
+  text-align: left;
+  width: 95%;
+  margin: 0 auto;
+}
+.eeo-form-bottom-row {
+  margin: 10px auto;
+}
+
+.eeo-option {
+  margin-top: 7px;
+  position: relative;
+}
+.eeo-question {
+  margin-bottom: 5px;
+}
+.eeo-question-title {
+  font-family: Roboto, serif;
+  font-size: 1.35em !important;
+  color: #2d2b6f;
+  font-weight: normal !important;
+}
+.eeo-form-disclaimer-modal {
+  padding: 0.5em 2em;
+}
+.eeo-form-disclaimer-modal-col {
+  margin-left: -1.25rem;
+}
+.eeo-form-disclaimer-btn {
+  font-family: Roboto, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #808080;
+  background-color: transparent;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 7px 17px;
+  border: none;
+}
+.eeo-form-disclaimer-btn:hover {
+  text-decoration: underline;
+  color: #a900a6;
+  transition: 0.75s;
+}
+.eeo-label {
+  margin-left: 25px;
+}
+
+.stepLabelActive {
+  color: #a900a6;
+}
+.stepButtonInactive {
+  background-color: #d3cdcd !important;
+}
+.eeo-options input[type='checkbox'] {
+  position: absolute;
+  right: 60px;
+  bottom: 14px;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #a900a6;
+  border-radius: 2px;
+  left: 0;
+  margin-left: -1px;
+  margin-bottom: -5px;
+}
+
+.eeo-options input[type='checkbox']:checked {
+  background: #a900a6;
+}
+
+.eeo-options input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.eeo-options input[type='checkbox']::after {
+  content: '\2713';
+  margin-top: -9px;
+  margin-left: -3px;
+  color: white;
+  display: none;
+  font-size: 20px;
+}
+
+.eeo-options input[type='checkbox']:checked::after {
+  display: block;
+}
+
+.eeo-options input[type='checkbox'] {
+  cursor: pointer;
+}
+.eeo-options input[type='radio'] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #a900a6;
+  border-radius: 50%;
+}
+
+/* appearance for checked radiobutton */
+.eeo-options input[type='radio']:checked {
+  background-color: #a900a6;
+}
+.eeo-form-btns {
+  gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .eeo-form-section {
+    width: 95%;
+  }
+}

@@ -1,0 +1,54 @@
+.off-chain-resume-box {
+  border-radius: 20px;
+}
+
+.off-chain-resume-box-title {
+  padding-left: 44px;
+  padding-top: 28px;
+  position: left;
+  left: 50px;
+}
+.off-chain-resume-box-title-section {
+  display: contents;
+  justify-content: left;
+  align-items: center;
+}
+.off-chain-resume-note {
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  padding-left: 44px;
+  padding-right: 44px;
+  font-size: 18px;
+  color: #808080;
+}
+.off-chain-resume-current-file-text {
+  font-size: 14px;
+  margin-top: 48px;
+  min-width: max-content;
+  margin-left: 44px;
+  text-align: left;
+}
+.off-chain-resume-current-file-link {
+  margin-left: 44px;
+  text-align: left;
+  color: #2d2b6f;
+  margin-bottom: 44px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+.off-chain-resume-upload-button {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  margin-right: 44px;
+  margin-bottom: 44px;
+  min-width: none;
+  background-color: #a900a6;
+  color: #fff;
+  float: right;
+  font-weight: 700;
+  height: fit-content;
+  width: 150px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  padding: 9px 0px;
+  border: #fff;
+}

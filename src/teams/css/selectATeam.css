@@ -1,0 +1,22 @@
+.select_a_team_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+  padding-left: 0px;
+  color: #000000;
+}
+
+.select-a-team-container {
+  background: #fafafa;
+  border-radius: 10px;
+}
+
+.current-team-section {
+  height: 190px;
+}
+
+.select-team-mentee-info {
+  text-align: center;
+}

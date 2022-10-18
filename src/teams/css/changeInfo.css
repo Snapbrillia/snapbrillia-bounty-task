@@ -1,0 +1,56 @@
+
+  .changeInfo_question {
+    color: black;
+    font-family: Roboto, serif;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .changeInfo_title {
+    font-family: Roboto, serif;
+    font-size: 1.25em;
+    font-weight: normal;
+  }
+
+  .changeInfo_form {
+    background-color: #f9f9f9;
+    padding-left: 10px;
+    border-radius: 7.5px;
+  }
+
+  .changeInfo_inputs_check_box {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #a900a6;
+    border-radius: 2px;
+    left: 0;
+    margin-right: 10px;
+  }
+
+  .changeInfo_inputs_check_box::after {
+    content: '\2713';
+    margin-top: -5px;
+    margin-left: 1px;
+    color: white;
+    display: none;
+    position: absolute;
+  }
+
+  .changeInfo_inputs_check_box:checked::after {
+    display: block;
+  }
+
+  .changeInfo_inputs_check_box:checked {
+    background: #a900a6;
+  }
+
+  .changeInfo_inputs_check_box:hover {
+    cursor: pointer;
+  }
+
+  .changeInfo_inputs_label {
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }

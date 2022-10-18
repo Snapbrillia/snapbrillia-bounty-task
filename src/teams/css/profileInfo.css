@@ -1,0 +1,60 @@
+.profileInfo_question {
+    color: black;
+    font-family: Roboto, serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+}
+
+.profileInfo_skills_title {
+    font-family: Roboto, serif;
+    font-size: 1.50em;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.profileInfo_form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 7.5px;
+    height: 530px;
+    margin-bottom: 10px;
+}
+
+.profileInfo_inputs_check_box {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #a900a6;
+    border-radius: 2px;
+    left: 0;
+    margin-right: 10px;
+}
+
+.profileInfo_inputs_check_box::after {
+    content: '\2713';
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 1px;
+    color: white;
+    display: none;
+}
+
+.profileInfo_inputs_check_box:checked::after {
+    display: block;
+}
+
+.profileInfo_inputs_check_box:checked {
+    background: #a900a6;
+}
+
+.profileInfo_inputs_check_box:hover {
+    cursor: pointer;
+}
+
+.profileInfo_inputs_label {
+    color: gray;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 500;
+}

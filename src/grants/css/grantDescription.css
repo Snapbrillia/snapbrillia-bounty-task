@@ -1,0 +1,26 @@
+.grant-descr-container {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 5px;
+  white-space: pre-line;
+}
+
+.team-img {
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.member-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700 !important;
+}
+
+.member-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #808080;
+}

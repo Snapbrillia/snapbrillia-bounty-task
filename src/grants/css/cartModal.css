@@ -1,0 +1,21 @@
+.small-cart-bg {
+  width: 35vw !important;
+  position: fixed !important;
+  right: 20px;
+  min-width: 320px;
+  height:90vh;
+}
+
+.small-cart-footer-bg {
+  background-color: #fafafa;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.small-cart-confirm-disable {
+  background-color: #CECECE !important;
+}
+
+.small-cart-modal-radius {
+  border-radius: 15px !important;
+}

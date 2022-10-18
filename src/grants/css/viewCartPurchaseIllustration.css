@@ -1,0 +1,16 @@
+.view-cart-purchase-illustration-container {
+  height: 100vh;
+  margin-top: auto;
+}
+
+.cart-purchase-success-text {
+  padding-top: 10%;
+}
+
+.cart-thankyou-text {
+  font-size: 40px;
+}
+
+.cart-contribution-text {
+  font-size: 24px;
+}

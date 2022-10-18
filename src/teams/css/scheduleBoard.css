@@ -1,0 +1,82 @@
+.schedule_board_bg {
+  height: 401px;
+  background: #fafafa;
+  border-radius: 5px;
+
+  padding-top: 20px;
+  padding-left: 40px;
+  overflow: scroll;
+  flex-flow: column;
+}
+
+.schedule_board_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.schedule_board_button_padding {
+  padding-top: 34px;
+}
+
+.schedule_board_back_button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+
+  border: none;
+  background-color: transparent;
+
+  float: right;
+
+  color: #808080;
+}
+
+.schedule_board_save_continue_button {
+  width: 151px;
+  height: 30px;
+
+  /* test */
+
+  background: #a900a6;
+  border-radius: 20px;
+  align-items: center;
+  float: right;
+  border: none;
+}
+
+.schedule_board_save_continue_button_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  padding-left: 20px;
+  padding-top: 7px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #f4f5f7;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  color: #000000;
+}

@@ -1,0 +1,43 @@
+.premier-checkout {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    color: #2D2B6F;
+}
+.premier-mentor-wallet {
+    padding-right: 60px;
+}
+.premier-mentor-font {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.premier-small-text {
+    font-size: 12px;
+}
+.premier-select-box {
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+}
+.premier-confirm-btn {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.premier-back-to-summary {
+    display: flex;
+    align-items: center;
+}
+  
+.premier-confirm-disable {
+    background-color: #d9d9d9 !important;
+}
+.premier-bottom-row {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+}
